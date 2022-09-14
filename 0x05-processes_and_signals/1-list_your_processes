@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+#Print current running process for all users, even those who don't have tty.
+
+ps -auxf

@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+#Infinite loop printing "To infinity and beyond" with a sleep of 2 between each loop
+for (( ; ; ));do
+echo "To infinity and beyond"
+sleep 2
+trap "echo I am invincible!!!" SIGTERM
+done
