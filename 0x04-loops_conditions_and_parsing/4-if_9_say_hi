@@ -2,12 +2,12 @@
 #this prints Holberton School 10 times, except the 9th time will pring Hi 
 
 i=1
-while [ $i -le 10 ];
-do 
-	echo Best School
-	(( i++ ))
-	if (( i == 10))	
+while [ $i -le 10 ]
+do
+	echo "Best School"
+	i=$((i+1))
+	if [ $i == 10 ]
 	then
-	echo Hi
+		echo "Hi"
 	fi
 done
