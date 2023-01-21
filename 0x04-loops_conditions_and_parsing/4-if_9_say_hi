@@ -1,13 +1,13 @@
 #!/usr/bin/env bash
 #this prints Holberton School 10 times, except the 9th time will pring Hi 
 
-i=1
-while [ $i -le 10 ]
+i=0
+while [ $i -le 9 ]
 do
-	echo "Best School"
-	i=$((i+1))
-	if [ $i == 10 ]
-	then
-		echo "Hi"
-	fi
+echo "Best School"
+i=$((i+1))
+if [ $i == 9 ]
+then
+	echo "Hi"
+fi
 done
